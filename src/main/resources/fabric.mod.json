@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "fast_leaves",
+  "version": "${version}",
+
+  "name": "Fast Leaves!",
+  "description": "No more clutter!",
+  "authors": [
+    "Flytre"
+  ],
+  "contact": {
+    "homepage": "http://www.flytre.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+  },
+  "mixins": [
+    "fast_leaves.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
