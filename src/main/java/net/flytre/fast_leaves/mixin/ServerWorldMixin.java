@@ -5,9 +5,7 @@ import net.flytre.fast_leaves.Variables;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.LeavesBlock;
-import net.minecraft.client.MinecraftClient;
 import net.minecraft.server.world.ServerWorld;
-import net.minecraft.text.LiteralText;
 import net.minecraft.util.math.BlockPos;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
@@ -19,7 +17,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 import java.util.function.BooleanSupplier;
-import java.util.stream.Collectors;
 
 @Mixin(ServerWorld.class)
 public abstract class ServerWorldMixin {
