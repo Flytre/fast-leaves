@@ -2,7 +2,6 @@ package net.flytre.fast_leaves.mixin;
 
 
 import net.flytre.fast_leaves.Variables;
-import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.LeavesBlock;
 import net.minecraft.util.math.BlockPos;
